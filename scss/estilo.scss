@@ -1,0 +1,144 @@
+@import "variables.scss";
+
+* {padding: 0;
+    margin: 0%;}
+    
+    body {background-color: $backcolor;}
+    header {background-color: $backcolor;}
+    
+    img {max-width: 100%;
+    height: auto;}
+    
+    .navul  {    display: flex;
+        flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    position: fixed; 
+    width: 100%;
+    height: 8%; 
+    background-color:  rgb(83, 83, 83);
+    text-decoration: none; 
+    opacity: 50%;}
+    
+    .nav { margin: auto;     display: inline-block; 
+        width: 15%; 
+        text-align: center;
+        font-family: 'Kumbh Sans', sans-serif; } 
+    
+    
+    a {color:  $colorfont;
+        text-decoration: none;}
+    
+    
+    
+    .opacidad {opacity: 25%;}
+    
+    
+    
+    .grilla { background-color: $backcolor;
+        display: grid; 
+    justify-items: center; 
+    grid-template-columns:53.5% 46.5%;
+    grid-template-rows: 50%  50%;
+    grid-template-areas: " imagenuno  imagentres "
+                        "imagendos  imagentres ";} 
+    
+    .imagenuno { margin: 5%; grid-area: imagenuno;}
+    
+    
+    .imagendos { margin: 5%; grid-area: imagendos;}
+    
+    
+    .imagentres {margin: 5%; grid-area: imagentres;}
+    
+    
+    
+    
+    
+    
+    
+    
+    .fondoimg {height: auto; max-width: 100%;}
+    
+    
+    .maincontacto {position: relative; margin-top: -30%;}
+    
+    .grillacontacto { background-color:rgba(0, 0, 0, 0.4);
+       display: flex; 
+       flex-direction: row;
+       justify-content: center;
+    align-items: center; flex-wrap: wrap; 
+    padding: 2%;} 
+    
+    h3 {font-family: 'Kumbh Sans', sans-serif; 
+     color: $colorfont; display: flex; flex-direction: column; margin: 2%;
+    font-size: 100%;}
+    
+    .datos {align-content: center;}
+    h2 {
+        font-family: 'Kumbh Sans', sans-serif; 
+     color:$colorfont; display: flex; flex-direction: column; margin: 2%;}
+    
+    .wpp {width: 10%; }
+    
+    
+    
+    
+    .licontacto {color: $colorfont;   display: flex;
+        flex-direction: column; 
+        font-family: 'Kumbh Sans', sans-serif; 
+    margin: 2%;}
+    
+    .olcontacto {display: flex; flex-direction: row; margin-left: 6%;}
+    
+    
+    
+    
+    
+    
+    .bodytienda {height: 1000px;}
+    
+    .navtienda {height: 7%;}
+    
+    
+    
+    .flextienda {display: flex; 
+    flex-direction: row; text-align: center;
+     justify-content: center; flex-wrap: wrap;} 
+    
+    .vino { margin: 2%;
+    width: 20%;}
+        
+    
+    h4 {color:$colorfont; font-family: 'Kumbh Sans', sans-serif;font-size: 70%; margin: 1%;}
+    
+    h5 {color: $colorfont; font-family: 'Kumbh Sans', sans-serif;font-size: 70%;}
+    
+    
+    
+    
+    
+    
+    .grillabar {text-align: center; margin-left: 10%; margin-right: 10%; } 
+    
+    
+    
+    
+    .contactanos {color: rgb(131, 131, 131);} 
+    
+    .contactanosdos {margin-left: 25%; margin-right: 25%;}
+     
+    
+    
+    
+    
+    
+    
+    footer { position: relative;margin-bottom:0%;}
+    
+    
+    .footer {height: 70px; background-color: rgb(14, 14, 14); display: flex; flex-direction: column; justify-content: center;
+    ;    text-align: center; vertical-align: middle;
+    text-decoration: rgba(0, 0, 0, 0.75); text-decoration: none;}
+    
+    .footercontacto {margin-top: 100%; width: auto; height: auto;}
